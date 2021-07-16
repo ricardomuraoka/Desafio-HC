@@ -10,12 +10,19 @@ html body {
 
 body {
     background-color: #2f2f30;
-    background-image:url(./images/tamanna-rumee-eD1RNYzzUxc-unsplash.jpg);
+    background-image:url(./images/Background.jpg);
     background-size: cover no-repeat;
     background-blend-mode: soft-light;
-
 }
-   
+
+.HC {
+    text-align: center;
+    display:block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 1080px;
+}
+
 .title1 {
     display:block;
     text-align:center;
@@ -66,4 +73,12 @@ body {
     font-weight: bold;
     border-radius: 5px;
     transition: background-color 1000ms, color 1000ms;
+}
+
+.footer {
+    text-align: center;
+    padding-bottom: 25px;
+    color: honeydew;
+    font-family: 'Franklin Gothic Medium';
+    font-weight:bold
 }
